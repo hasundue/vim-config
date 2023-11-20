@@ -1,0 +1,93 @@
+{
+  "nodes": {
+    "denops.vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1699453626,
+        "narHash": "sha256-0fUtBZlw+d2en/kORS1REY93ofD6KdQrmD7kczWjimM=",
+        "owner": "vim-denops",
+        "repo": "denops.vim",
+        "rev": "8b53173370d3c2285abb34569b8d00b73d06eaa3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vim-denops",
+        "repo": "denops.vim",
+        "type": "github"
+      }
+    },
+    "dpp-ext-lazy": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700452572,
+        "narHash": "sha256-ZPl2J15v+0uBg/wLFqr1oVgTQGgfj5zuXlAaMOkb3Hk=",
+        "owner": "Shougo",
+        "repo": "dpp-ext-lazy",
+        "rev": "b19a52bbb6e35dec2c681423b0709cd41f38eb2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "dpp-ext-lazy",
+        "type": "github"
+      }
+    },
+    "dpp.vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700474431,
+        "narHash": "sha256-Viiri/FWHF/a0uQKVcb2E8MUIqBHTZ37zlZsEzmbTFQ=",
+        "owner": "Shougo",
+        "repo": "dpp.vim",
+        "rev": "94897b625d1d2bffb38d7daea49ee32853cf9433",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "repo": "dpp.vim",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1700444282,
+        "narHash": "sha256-s/+tgT+Iz0LZO+nBvSms+xsMqvHt2LqYniG9r+CYyJc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3f21a22b5aafefa1845dec6f4a378a8f53d8681c",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "denops.vim": "denops.vim",
+        "dpp-ext-lazy": "dpp-ext-lazy",
+        "dpp.vim": "dpp.vim",
+        "nixpkgs": "nixpkgs",
+        "vim-floaterm": "vim-floaterm"
+      }
+    },
+    "vim-floaterm": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700403249,
+        "narHash": "sha256-rJXxXu6QpMd6Q3YiTvHlKXVt+8ZPEZ2WMSQPlR4WX5k=",
+        "owner": "voldikss",
+        "repo": "vim-floaterm",
+        "rev": "3f01a623376957437f9376327637491b74719e38",
+        "type": "github"
+      },
+      "original": {
+        "owner": "voldikss",
+        "repo": "vim-floaterm",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
