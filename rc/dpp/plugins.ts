@@ -1,7 +1,4 @@
-import {
-  ClosedGroup,
-  Group,
-} from "https://esm.sh/gh/hasundue/dpp-helper@11fecf6a63/mod.ts";
+import { ClosedGroup, Group } from "dpp_helper";
 
 async function readTextFile(path: string) {
   return await Deno.readTextFile(new URL(path, import.meta.url));

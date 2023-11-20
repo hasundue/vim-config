@@ -1,10 +1,6 @@
-import {
-  BaseConfig,
-  ConfigArguments,
-  Plugin,
-} from "https://deno.land/x/dpp_vim@v0.0.7/types.ts";
+import { $XDG_DATA_HOME } from "dpp_helper";
+import { BaseConfig, ConfigArguments, Plugin } from "dpp_vim";
 import { PLUGINS } from "./plugins.ts";
-import { $XDG_DATA_HOME } from "https://esm.sh/gh/hasundue/dpp-helper@11fecf6a63/mod.ts";
 
 interface LazyMakeStateResult {
   plugins: Plugin[];

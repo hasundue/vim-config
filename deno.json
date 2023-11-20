@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "dpp_helper": "https://raw.githubusercontent.com/hasundue/dpp-helper/11fecf6a63/mod.ts",
+    "dpp_vim": "https://deno.land/x/dpp_vim@v0.0.7/types.ts"
+  }
+}

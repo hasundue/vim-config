@@ -1,12 +1,9 @@
-import {
-  $HOME,
-  ClosedGroup,
-} from "https://esm.sh/gh/hasundue/dpp-helper@11fecf6a63/mod.ts?target=deno";
+import { $HOME, ClosedGroup } from "dpp_helper";
 
 const PLACEHOLDER = "    /* PLACEHOLDER */";
 
 const TEMPLATE = `{
-  description = "hasundue's Vim plugins (auto-generated)";
+  description = "hasundue's Vim configuration";
 
   inputs = {
 ${PLACEHOLDER}
